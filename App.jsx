@@ -10,7 +10,7 @@ import { createClient } from "@supabase/supabase-js";
 
 // ─── CONFIGURATIE ────────────────────────────────────────────────────────────
 const SUPABASE_URL = "https://nmehrffvmsudlyoutbia.supabase.co";
-const SUPABASE_ANON_KEY = "JOUW_SUPABASE_ANON_KEY"; // ← plak hier je anon key uit Supabase dashboard → Settings → API
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5tZWhyZmZ2bXN1ZGx5b3V0YmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcyMTQzNTcsImV4cCI6MjA5Mjc5MDM1N30.7XvDKi3vUClTPmDignT3YxwQAG4-eRdWo_L9ekxDpac"; // ← plak hier je anon key uit Supabase dashboard → Settings → API
 const STRIPE_CHECKOUT_URL = "https://buy.stripe.com/test_aFa6oI6PGbvh0AA4nY0Fi00";
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
